@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+scalability.numberOfLines=50000
+semanticHighlighting.function.color=128,0,128
+semanticHighlighting.function.enabled=true
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
