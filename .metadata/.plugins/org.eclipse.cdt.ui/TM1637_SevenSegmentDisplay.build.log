@@ -1,0 +1,20 @@
+10:28:39 **** Incremental Build of configuration Debug for project TM1637_SevenSegmentDisplay ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TM1637_SevenSegmentDisplay.elf" @"objects.list"   -mcpu=cortex-m0plus -T"E:\STM32_Tutorials\STM32_Nucleo64_Workspace\TM1637_SevenSegmentDisplay\STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TM1637_SevenSegmentDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TM1637_SevenSegmentDisplay.elf
+ 
+arm-none-eabi-objdump -h -S  TM1637_SevenSegmentDisplay.elf  > "TM1637_SevenSegmentDisplay.list"
+arm-none-eabi-objcopy  -O binary  TM1637_SevenSegmentDisplay.elf  "TM1637_SevenSegmentDisplay.bin"
+arm-none-eabi-size   TM1637_SevenSegmentDisplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6592	     20	   1572	   8184	   1ff8	TM1637_SevenSegmentDisplay.elf
+Finished building: default.size.stdout
+Finished building: TM1637_SevenSegmentDisplay.list
+Finished building: TM1637_SevenSegmentDisplay.bin
+ 
+ 
+ 
+
+10:28:40 Build Finished. 0 errors, 0 warnings. (took 1s.688ms)
+

@@ -1,0 +1,13 @@
+TM1637.c:28:6:TM1637_ClkHigh	8	static
+TM1637.c:33:6:TM1637_ClkLow	8	static
+TM1637.c:38:6:TM1637_DataHigh	8	static
+TM1637.c:43:6:TM1637_DataLow	8	static
+TM1637.c:48:6:TM1637_Demo	16	static
+TM1637.c:61:6:TM1637_Init	8	static
+TM1637.c:68:6:TM1637_DisplayDecimal	32	static
+TM1637.c:98:6:TM1637_SetBrightness	16	static
+TM1637.c:111:6:TM1637_Start	8	static
+TM1637.c:119:6:TM1637_Stop	8	static
+TM1637.c:130:6:TM1637_ReadResult	8	static
+TM1637.c:140:6:TM1637_WriteByte	24	static
+TM1637.c:157:6:TM1637_DelayUsec	24	static,ignoring_inline_asm

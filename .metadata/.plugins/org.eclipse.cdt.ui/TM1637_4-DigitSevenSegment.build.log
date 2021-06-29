@@ -1,0 +1,10 @@
+18:03:14 **** Incremental Build of configuration Debug for project TM1637_4-DigitSevenSegment ****
+make -j4 all 
+arm-none-eabi-size   TM1637_4-DigitSevenSegment.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6632	     20	   1572	   8224	   2020	TM1637_4-DigitSevenSegment.elf
+Finished building: default.size.stdout
+ 
+
+18:03:15 Build Finished. 0 errors, 0 warnings. (took 500ms)
+
